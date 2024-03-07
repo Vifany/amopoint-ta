@@ -6,7 +6,8 @@
     <title>File Upload</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+            font-weight: normal;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
@@ -32,6 +33,10 @@
         }
         form {
             margin-top: 20px;
+        }
+        input{
+            font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+            font-weight: normal;
         }
         input[type="file"] {
             margin-bottom: 10px;
